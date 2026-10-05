@@ -14,10 +14,10 @@ export const colors = {
   green: '#008866',
 };
 export const floatingTabBar = {
-  bottom: 20,
+  bottom: Platform.OS === 'android' ? 40 : 20,
   height: 68,
   horizontalInset: 16,
-  contentInset: 108,
+  contentInset: Platform.OS === 'android' ? 128 : 108,
 };
 
 export const serif = Platform.select({ ios: 'Georgia', android: 'serif' });

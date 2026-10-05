@@ -1,4 +1,4 @@
-package com.bookreadingchallengetoolkit
+package com.bookreading.challengetoolkit
 
 import android.app.Application
 import com.facebook.react.PackageList

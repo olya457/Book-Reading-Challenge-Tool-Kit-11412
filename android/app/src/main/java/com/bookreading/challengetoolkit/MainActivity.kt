@@ -1,4 +1,4 @@
-package com.bookreadingchallengetoolkit
+package com.bookreading.challengetoolkit
 
 import android.os.Bundle
 import com.swmansion.rnscreens.fragment.restoration.RNScreensFragmentFactory
